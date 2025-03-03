@@ -7,6 +7,6 @@ const server = http.createServer(function(request, response){
 });
 
 server.listen(port, host, function() {
-    console.log(`server running on ${host}:${port} 🐧 `);
+    console.log(`server running on ${host}:${port} 🐧`);
      
 });
